@@ -1,113 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+## Welcome to GitHub Pages
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mod3-Menu</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  </head>
-  
-<body>
+You can use the [editor on GitHub](https://github.com/IsraelKenneth/mod3_solution/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Food, LCC</a>
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li>
-              <div class="food"><a href="#chicken">Chicken</a></div>
-            </li>
-            <li>
-              <div class="food"><a href="#beef">Beef</a></div>
-            </li>
-            <li>
-              <div class="food"><a href="#sushi">Sushi</a></div>
-            </li>
-          </ul> <!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-	</header>
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Markdown
 
-<div class="text-center" id="title" >
-  <h1>Our Menu</h1>
-</div>
-<div class="row">
-<section class="col-xs-12">
-  <div class="container-fluid" id="menus">
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="menu" id="chicken"> <h3 class="text-center">Chicken</h3>
-      <div>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ex libero, vel imperdiet lectus aliquet et. Nunc porttitor ex nec odio sodales, non blandit lectus consectetur. Cras id est enim. Etiam interdum fringilla quam non luctus. Cras sagittis, nisi ac congue pulvinar, leo mi vehicula urna, ac porta nunc erat eget sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper feugiat augue, id pulvinar velit tempor quis. In eros lacus, scelerisque et aliquam blandit, tempus eget est. Vestibulum risus massa, semper at erat sed, fermentum dapibus sapien.
+```markdown
+Syntax highlighted code block
 
-Sed faucibus cursus imperdiet. Vestibulum nec erat vel diam vestibulum ultricies. Phasellus eleifend leo sed feugiat venenatis. Maecenas at nulla urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus sapien, vestibulum molestie gravida ut, pharetra vitae nisl. Proin a diam ac leo interdum semper. Phasellus at purus at urna aliquam viverra eget quis neque. Quisque facilisis sapien et nisi iaculis rhoncus. Quisque imperdiet lorem in sapien pharetra gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sed aliquet nisi.
+# Header 1
+## Header 2
+### Header 3
 
-Aenean vitae finibus magna. Quisque a augue aliquet, sodales dui ut, fermentum lacus. Ut vitae risus sit amet enim malesuada auctor vel vel nisi. Vestibulum in auctor lorem, vitae pharetra eros. Pellentesque gravida cursus semper. Proin ipsum massa, facilisis eget lacus at, cursus posuere orci. Aliquam pulvinar diam at eros viverra commodo.
+- Bulleted
+- List
 
-Duis id tellus at tortor cursus auctor egestas vel enim. Pellentesque arcu urna, iaculis a felis id, sodales dictum nunc. Sed a nibh egestas tortor fringilla vestibulum eu nec dolor. Praesent malesuada erat mi, at placerat felis rutrum nec. Duis varius luctus pulvinar. Nullam elit enim, molestie in velit eu, consectetur tincidunt enim. In hac habitasse platea dictumst. Aenean et dictum lacus. Nam sit amet egestas mi. Nam congue egestas diam eu tempor. Vivamus imperdiet elementum risus sit amet ultricies.
+1. Numbered
+2. List
 
-Mauris quis elementum nunc. Ut quis egestas diam. In hac habitasse platea dictumst. Aliquam tincidunt scelerisque congue. Morbi eget sapien eget elit fermentum ornare ut sit amet erat. Suspendisse ut nisl purus. In hac habitasse platea dictumst. </div>
-      <br>
-      <a href="#header-nav">Back to Top</a>
-    </div>
-</div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="menu" id="beef"> <h3 class="text-center">Beef</h3>
-      <div>
+**Bold** and _Italic_ and `Code` text
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ex libero, vel imperdiet lectus aliquet et. Nunc porttitor ex nec odio sodales, non blandit lectus consectetur. Cras id est enim. Etiam interdum fringilla quam non luctus. Cras sagittis, nisi ac congue pulvinar, leo mi vehicula urna, ac porta nunc erat eget sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper feugiat augue, id pulvinar velit tempor quis. In eros lacus, scelerisque et aliquam blandit, tempus eget est. Vestibulum risus massa, semper at erat sed, fermentum dapibus sapien.
+[Link](url) and ![Image](src)
+```
 
-Sed faucibus cursus imperdiet. Vestibulum nec erat vel diam vestibulum ultricies. Phasellus eleifend leo sed feugiat venenatis. Maecenas at nulla urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus sapien, vestibulum molestie gravida ut, pharetra vitae nisl. Proin a diam ac leo interdum semper. Phasellus at purus at urna aliquam viverra eget quis neque. Quisque facilisis sapien et nisi iaculis rhoncus. Quisque imperdiet lorem in sapien pharetra gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sed aliquet nisi.
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-Aenean vitae finibus magna. Quisque a augue aliquet, sodales dui ut, fermentum lacus. Ut vitae risus sit amet enim malesuada auctor vel vel nisi. Vestibulum in auctor lorem, vitae pharetra eros. Pellentesque gravida cursus semper. Proin ipsum massa, facilisis eget lacus at, cursus posuere orci. Aliquam pulvinar diam at eros viverra commodo.
+### Jekyll Themes
 
-Duis id tellus at tortor cursus auctor egestas vel enim. Pellentesque arcu urna, iaculis a felis id, sodales dictum nunc. Sed a nibh egestas tortor fringilla vestibulum eu nec dolor. Praesent malesuada erat mi, at placerat felis rutrum nec. Duis varius luctus pulvinar. Nullam elit enim, molestie in velit eu, consectetur tincidunt enim. In hac habitasse platea dictumst. Aenean et dictum lacus. Nam sit amet egestas mi. Nam congue egestas diam eu tempor. Vivamus imperdiet elementum risus sit amet ultricies.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IsraelKenneth/mod3_solution/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-Mauris quis elementum nunc. Ut quis egestas diam. In hac habitasse platea dictumst. Aliquam tincidunt scelerisque congue. Morbi eget sapien eget elit fermentum ornare ut sit amet erat. Suspendisse ut nisl purus. In hac habitasse platea dictumst. </div>
-      <br>
-      <a href="#header-nav">Back to Top</a>
-    </div>
-    </div>
-     <div class="col-md-4 col-sm-12 col-xs-12">
-      <div class="menu" id="sushi"><h3 class="text-center">Sushi</h3>
-      <div>
+### Support or Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ex libero, vel imperdiet lectus aliquet et. Nunc porttitor ex nec odio sodales, non blandit lectus consectetur. Cras id est enim. Etiam interdum fringilla quam non luctus. Cras sagittis, nisi ac congue pulvinar, leo mi vehicula urna, ac porta nunc erat eget sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper feugiat augue, id pulvinar velit tempor quis. In eros lacus, scelerisque et aliquam blandit, tempus eget est. Vestibulum risus massa, semper at erat sed, fermentum dapibus sapien.
-
-Sed faucibus cursus imperdiet. Vestibulum nec erat vel diam vestibulum ultricies. Phasellus eleifend leo sed feugiat venenatis. Maecenas at nulla urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus sapien, vestibulum molestie gravida ut, pharetra vitae nisl. Proin a diam ac leo interdum semper. Phasellus at purus at urna aliquam viverra eget quis neque. Quisque facilisis sapien et nisi iaculis rhoncus. Quisque imperdiet lorem in sapien pharetra gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sed aliquet nisi.
-
-Aenean vitae finibus magna. Quisque a augue aliquet, sodales dui ut, fermentum lacus. Ut vitae risus sit amet enim malesuada auctor vel vel nisi. Vestibulum in auctor lorem, vitae pharetra eros. Pellentesque gravida cursus semper. Proin ipsum massa, facilisis eget lacus at, cursus posuere orci. Aliquam pulvinar diam at eros viverra commodo.
-
-Duis id tellus at tortor cursus auctor egestas vel enim. Pellentesque arcu urna, iaculis a felis id, sodales dictum nunc. Sed a nibh egestas tortor fringilla vestibulum eu nec dolor. Praesent malesuada erat mi, at placerat felis rutrum nec. Duis varius luctus pulvinar. Nullam elit enim, molestie in velit eu, consectetur tincidunt enim. In hac habitasse platea dictumst. Aenean et dictum lacus. Nam sit amet egestas mi. Nam congue egestas diam eu tempor. Vivamus imperdiet elementum risus sit amet ultricies.
-
-Mauris quis elementum nunc. Ut quis egestas diam. In hac habitasse platea dictumst. Aliquam tincidunt scelerisque congue. Morbi eget sapien eget elit fermentum ornare ut sit amet erat. Suspendisse ut nisl purus. In hac habitasse platea dictumst. </div>
-      <br>
-      <a href="#header-nav">Back to Top</a>
-    </div>
-  </div>
-</div>
-	</section>
-
-	</div>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-  
-</body>
-</html>
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
